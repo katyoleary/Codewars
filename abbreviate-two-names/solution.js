@@ -2,7 +2,7 @@
 
 function abbrevName(name){
     var separate = name.split(' ').map(function(name){return name[0]}).join('.');
-    return separate;
+    return separate.toUpperCase();
 
 }
 
